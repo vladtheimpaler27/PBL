@@ -9,7 +9,7 @@ import streamlit.components.v1 as components
 from recommender import df, recommend, recommend_ai
 from bandit import LinUCB
 
-st.title("🎵 Song Recommender")
+st.title("🎵 Song Recommender!")
 
 # ---------- Mood clusters (made by mood_clusters.py) ----------
 has_clusters = os.path.exists("clusters.npy")
